@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+#tam{
+    max-width: 800px;
+    margin: auto;
+}
+
+header{
+    font-size: 24px;
+    text-align: center;
+    background-color: crimson;
+    padding: 15px;
+    margin: 0px;
+}
+section{
+    background-image: url('../area51/imagens/images.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 350px;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+#cap{
+    max-width: 200px;
+    padding: 10px;
+    background-color:rgba(240, 237, 235, 0.6);
+    float: right;
+}
+
+.sobre{
+    font-size: 13px;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+input{ 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;    
+}
+ input[type="submit"]{
+     color: white;
+     background-color:crimson;
+ }
+ footer{ background-color: rgb(26, 24, 24);
+     padding: 15px;
+     text-align: center;
+ }
+.imagem{
+    max-width: 150px;
+    margin-right: 15px;
+}
+.descricao{
+    display: inline-block;
+    text-align: left;
+    color: aliceblue;
+    max-width: 40%;
+}
